@@ -30,3 +30,11 @@ Built with `.NET Core`, it serves as an helpful tool where the user can find alr
 ```bash
 git clone https://github.com/AxelLedung/HAF-Project.git
 cd HAF-Project
+```
+### 2. Create Database Locally
+
+```Package Manager Console
+Add-Migration InitialCreate
+
+Update-Database
+```
